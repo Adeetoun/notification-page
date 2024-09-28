@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.google.com/specimen/Plus+Jakarta+Sans');
+
+body{
+    background-color: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans' sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+img{
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+h3{
+    color: hwb(218 58% 32%);
+}
+p{
+    color: hsl(219, 14%, 63%);
+    line-height: 0.8;
+}
+.container{
+    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dot{
+    width: 10px;
+    height:10px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    float: right;
+}
+span#blue{
+    color: hsl(224, 95%, 50%);
+}
+span #blue:hover{
+color: hsl(219, 85%, 26%);
+}
+span#white{
+    color: #fff;
+    background: hsl(219, 85%, 26%);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 16px;
+}
+span#black-bold{
+    font-weight: 800;
+}
+span#black-bold:hover {
+    color: hsl(219, 85%, 26%);
+}
+span#light-blue{
+    color: hsl(219, 14%, 63%);
+}
+span#light-blue:hover {
+    color: hsl(219, 85%, 26%);
+}
+span#gray{
+    color: rgb(113, 110, 110);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.header .nav-bar button{
+    color: hsl(219, 14%, 63%);
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header .nav-bar button:hover{
+    color: hsl(219, 85%, 26%);
+}
+.header .nav-bar button:active {
+    color: hsl(219, 85%, 26%);
+}
+.profiles{
+    padding: 10px;
+    margin: 10px;
+}
+.profiles .profile-1, 
+.profiles .profile-2,
+.profiles .profile-3 {
+    background: hsl(211, 68%, 94%);
+    padding: 10px;
+    margin: 10px;
+}
+.profiles .profile-1:hover, 
+.profiles .profile-2:hover,
+.profiles .profile-3:hover {
+    background: hsl(210, 60%, 98%);
+}
+.profiles .profile-4, 
+.profiles .profile-5,
+.profiles .profile-6,
+.profiles .profile-7{
+    padding: 10px;
+    margin: 10px;
+}
+.profiles .profile-1 p{
+    margin-top: 10px;
+}
+.profiles .profile-2 p{
+    margin-top: 10px;
+}
+.profiles .profile-3 p{
+    margin-top: 10px;
+}
+.profiles .profile-4 p{
+    margin-top: 10px;
+}
+.profiles .profile-4 .box{
+    margin: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.profiles .profile-4 .box:hover{
+    background: hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+.profiles .profile-5{
+    display: flex;
+    justify-content: space-between;
+}
+.profiles .profile-5 p{
+    margin-top: 10px;
+}
+.profiles .profile-6 p{
+    margin-top: 10px;
+}
+.profiles .profile-7 p{
+    margin-top: 10px;
+}
+.profiles .read{
+    background: hsl(220, 6%, 70%);
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
